@@ -12,6 +12,8 @@ I told myself during college that notebooks were stupid. All my slides and lectu
 {% highlight golang %}
 package main 
 
+import "fmt"
+
 func main(){ 
     fmt.Println('Hello Blog')
 }
