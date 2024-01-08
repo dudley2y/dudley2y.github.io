@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A (not so)-Simple-Filesystem-Scanner"
+title:  "A (not so) Simple Filesystem Scanner"
 date:   2024-1-7 21:09:56 -0600
 categories: jekyll update
 ---
