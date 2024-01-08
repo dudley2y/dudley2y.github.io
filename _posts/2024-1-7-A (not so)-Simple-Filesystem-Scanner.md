@@ -69,7 +69,6 @@ This small little program scans any path or `start` variable to shows all its ch
 ![Folders and their sizes](/images/file_scanner_example.png "Title")
 
 
-
 <br> So why did this little script take 4 hours...<br><br> 
 
  When you want to access a folder or a files's metadata, typically you will access some sort of `os.stat` , `os.path.getsize`. Problem, insert 
