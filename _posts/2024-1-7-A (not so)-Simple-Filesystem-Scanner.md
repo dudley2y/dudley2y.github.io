@@ -7,7 +7,7 @@ categories: jekyll update
 
 The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: "Where is the Microsoft bloatware on my machine?". So we found out.
 
-{% highlight python %}
+```python
 import os 
 
 def recursion_step(directory):
@@ -23,7 +23,6 @@ def recursion_step(directory):
             if os.path.isfile(entry):
                 file_sizes += os.path.getsize(entry)
             elif os.path.isdir(entry):
-                # sub_dir_path = os.path.join(directory, entry)
                 file_sizes += recursion_step(entry)
         
         depth = directory.count(os.sep)
@@ -60,7 +59,7 @@ recursion_step(start)
 global_entries.reverse()
 
 print_relevant(global_entries, threshold=0)
-{% endhighlight %}
+```
 
 
 
