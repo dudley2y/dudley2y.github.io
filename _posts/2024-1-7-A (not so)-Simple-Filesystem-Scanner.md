@@ -81,4 +81,4 @@ So getting the size knowing the path ends up resulting in SIGNIFICANTLY smaller 
 
 Rant aside, I remembered that some operating systems implement Filesystems as BTrees, but either way Trees are a good mental model for this problem. Files are leaf nodes and Folders are other parent nodes to which it  can have children. So since Windows wouldn't expose this to me, i'll just calculate it myself. With a simple recursive graph algorithm ( I can't be bothered to remember which proper technique name it is) I calculate the size of all the files in the child's folder and I give it to the parent.
 
-After running the script, we found a culprit. Unreal Engine. Precisely, 2 separate versions of Unreal taking up over 150 gigabytes of storage. Microsoft gets to live another day.
+After running the script, we found a culprit. Unreal Engine. Precisely, 2 separate versions of Unreal taking up over 350 gigabytes of storage. Microsoft gets to live another day.
