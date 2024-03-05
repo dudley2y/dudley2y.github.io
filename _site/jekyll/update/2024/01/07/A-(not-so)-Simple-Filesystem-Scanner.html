@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>A (not so)-Simple-Filesystem-Scanner | A (software) engineering notebook</title>
+<title>A (not so) Simple Filesystem Scanner | A (software) engineering notebook</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="A (not so)-Simple-Filesystem-Scanner" />
+<meta property="og:title" content="A (not so) Simple Filesystem Scanner" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out." />
 <meta property="og:description" content="The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out." />
@@ -15,9 +15,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-01-07T21:09:56-06:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="A (not so)-Simple-Filesystem-Scanner" />
+<meta property="twitter:title" content="A (not so) Simple Filesystem Scanner" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-07T21:09:56-06:00","datePublished":"2024-01-07T21:09:56-06:00","description":"The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.","headline":"A (not so)-Simple-Filesystem-Scanner","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html"},"url":"http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-07T21:09:56-06:00","datePublished":"2024-01-07T21:09:56-06:00","description":"The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.","headline":"A (not so) Simple Filesystem Scanner","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html"},"url":"http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="A (software) engineering notebook" /></head>
 <body><header class="site-header" role="banner">
@@ -40,7 +40,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">A (not so)-Simple-Filesystem-Scanner</h1>
+    <h1 class="post-title p-name" itemprop="name headline">A (not so) Simple Filesystem Scanner</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2024-01-07T21:09:56-06:00" itemprop="datePublished">Jan 7, 2024
       </time></p>
@@ -49,7 +49,7 @@
   <div class="post-content e-content" itemprop="articleBody">
     <p>The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span> 
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">os</span> 
 
 <span class="k">def</span> <span class="nf">recursion_step</span><span class="p">(</span><span class="n">directory</span><span class="p">):</span>
     <span class="k">try</span><span class="p">:</span>
@@ -64,8 +64,7 @@
             <span class="k">if</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">entry</span><span class="p">):</span>
                 <span class="n">file_sizes</span> <span class="o">+=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">getsize</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
             <span class="k">elif</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">entry</span><span class="p">):</span>
-                <span class="c1"># sub_dir_path = os.path.join(directory, entry)
-</span>                <span class="n">file_sizes</span> <span class="o">+=</span> <span class="n">recursion_step</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
+                <span class="n">file_sizes</span> <span class="o">+=</span> <span class="n">recursion_step</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
         
         <span class="n">depth</span> <span class="o">=</span> <span class="n">directory</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">sep</span><span class="p">)</span>
 
@@ -100,7 +99,8 @@
 
 <span class="n">global_entries</span><span class="p">.</span><span class="n">reverse</span><span class="p">()</span>
 
-<span class="n">print_relevant</span><span class="p">(</span><span class="n">global_entries</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span></code></pre></figure>
+<span class="n">print_relevant</span><span class="p">(</span><span class="n">global_entries</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>This small little program scans any path or <code class="language-plaintext highlighter-rouge">start</code> variable to shows all its children folders with their respective sizes.</p>
 
@@ -119,7 +119,7 @@
 
 <p>Rant aside, I remembered that some operating systems implement Filesystems as BTrees, but either way Trees are a good mental model for this problem. Files are leaf nodes and Folders are other parent nodes to which it  can have children. So since Windows wouldn’t expose this to me, i’ll just calculate it myself. With a simple recursive graph algorithm ( I can’t be bothered to remember which proper technique name it is) I calculate the size of all the files in the child’s folder and I give it to the parent.</p>
 
-<p>After running the script, we found a culprit. Unreal Engine. Precisely, 2 separate versions of Unreal taking up over 150 gigabytes of storage. Microsoft gets to live another day.</p>
+<p>After running the script, we found a culprit. Unreal Engine. Precisely, 2 separate versions of Unreal taking up over 350 gigabytes of storage. Microsoft gets to live another day.</p>
 
   </div><a class="u-url" href="/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html" hidden></a>
 </article>
