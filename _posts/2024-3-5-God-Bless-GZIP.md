@@ -25,7 +25,7 @@ If you are anything like me, you came out of college thinking you were a hotshot
 
 ![standard can frame](https://canlogger1000.csselectronics.com/img/CAN-bus-frame-standard-message-SOF-ID-RTR-Control-Data-CRC-ACK-EOF.svg)
 
-TLDR: it's the networking protocol that's responsible for making your car work. Your brake pedals don't physically connect to your tires, so something has to tell your breaks to activate. Thanks to the can-utils library, we can easily see CAN network traffic easily on a linux machine!
+TLDR: it's the networking protocol that's responsible for making your car work. Your brake pedals don't physically connect to your tires, so something has to tell your brakes to activate. Thanks to the can-utils library, we can easily see CAN network traffic easily on a linux machine!
 
 
 
