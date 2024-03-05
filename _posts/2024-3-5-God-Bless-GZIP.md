@@ -56,3 +56,22 @@ The senior engineer when faced with the problem went processing data on edge
 | Normal | 0x | 
 | GZIP Raw | 10x | 
 | GZIP Minimal | 78.9x  | 
+
+
+## A NEW CHALLENGER HAS ARRIVED
+
+With my Senior engineer requesting I try one more format. I introduce Apache Parquet.
+> Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc...
+
+Using pyarrow's parquet module, I see the follow result
+
+ ![Experiment](/images/can_parquet.png) 
+
+| Experiment | Compression Rate | 
+|----------|----------|----------|
+| Normal | 0x | 
+| Parquet| 4x | 
+
+## Conclusion 
+
+I should've just listened to my senior...

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-05T14:39:52-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A (software) engineering notebook</title><subtitle>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</subtitle><entry><title type="html">God Bless GZIP (for CAN Network Traffic)</title><link href="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html" rel="alternate" type="text/html" title="God Bless GZIP (for CAN Network Traffic)" /><published>2024-03-05T00:00:00-06:00</published><updated>2024-03-05T00:00:00-06:00</updated><id>http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html">&lt;h1 id=&quot;data-aquisition-is-expensive&quot;&gt;Data Aquisition is expensive&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-05T15:20:22-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A (software) engineering notebook</title><subtitle>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</subtitle><entry><title type="html">God Bless GZIP (for CAN Network Traffic)</title><link href="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html" rel="alternate" type="text/html" title="God Bless GZIP (for CAN Network Traffic)" /><published>2024-03-05T00:00:00-06:00</published><updated>2024-03-05T00:00:00-06:00</updated><id>http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html">&lt;h1 id=&quot;data-aquisition-is-expensive&quot;&gt;Data Aquisition is expensive&lt;/h1&gt;
 &lt;p&gt;An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.&lt;/p&gt;
 
 &lt;p&gt;When building a data acquisition system, the important questions for an engineer are&lt;/p&gt;
@@ -64,7 +64,41 @@
       &lt;td&gt;78.9x&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Data Aquisition is expensive An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.</summary></entry><entry><title type="html">A (not so) Simple Filesystem Scanner</title><link href="http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html" rel="alternate" type="text/html" title="A (not so) Simple Filesystem Scanner" /><published>2024-01-07T21:09:56-06:00</published><updated>2024-01-07T21:09:56-06:00</updated><id>http://localhost:4000/jekyll/update/2024/01/07/A%20(not%20so)-Simple-Filesystem-Scanner</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html">&lt;p&gt;The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.&lt;/p&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;a-new-challenger-has-arrived&quot;&gt;A NEW CHALLENGER HAS ARRIVED&lt;/h2&gt;
+
+&lt;p&gt;With my Senior engineer requesting I try one more format. I introduce Apache Parquet.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Using pyarrow’s parquet module, I see the follow result&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/can_parquet.png&quot; alt=&quot;Experiment&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Experiment&lt;/th&gt;
+      &lt;th&gt;Compression Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Normal&lt;/td&gt;
+      &lt;td&gt;0x&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Parquet&lt;/td&gt;
+      &lt;td&gt;4x&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I should’ve just listened to my senior…&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Data Aquisition is expensive An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.</summary></entry><entry><title type="html">A (not so) Simple Filesystem Scanner</title><link href="http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html" rel="alternate" type="text/html" title="A (not so) Simple Filesystem Scanner" /><published>2024-01-07T21:09:56-06:00</published><updated>2024-01-07T21:09:56-06:00</updated><id>http://localhost:4000/jekyll/update/2024/01/07/A%20(not%20so)-Simple-Filesystem-Scanner</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/01/07/A-(not-so)-Simple-Filesystem-Scanner.html">&lt;p&gt;The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt; 
 
