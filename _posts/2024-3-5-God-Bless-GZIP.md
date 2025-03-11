@@ -17,7 +17,7 @@ Specifically, we were collecting high frequency CANbus data. We ran into a issue
 
 # WTF is CAN
 
-If you are anything like me, you came out of college thinking you were a hotshot because you understood how DNSSEC and BGP worked. You might've heard of protocls like IP, TCP, TLS, HTTPS and been confident. Little did you know, there have been more protocols invented for shit's n giggles than grains of sand in the earth. Because I am lazy, here's a ChatGPT 3.5 explanation of the protocol:
+If you are anything like me, you came out of college thinking you were a hotshot because you understood how DNSSEC and BGP worked. You might've heard of protocols like IP, TCP, TLS, HTTPS and been confident. Little did you know, there have been more protocols invented for shit's n giggles than grains of sand in the earth. Because I am lazy, here's a ChatGPT 3.5 explanation of the protocol:
 
 > CANbus, short for Controller Area Network bus, is a robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other in applications without a host computer. It is commonly used in automotive and industrial applications to enable communication between various components within a vehicle or a machine. CANbus provides a reliable and efficient way to transmit data between different electronic control units (ECUs) or nodes within a network, allowing for real-time control and monitoring of systems.
 
