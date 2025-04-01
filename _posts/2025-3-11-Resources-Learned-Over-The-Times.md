@@ -22,6 +22,7 @@ categories: jekyll update
 ## Books 
 - [The Idea Factory](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797)
 - [The Last Lecture](https://www.amazon.com/Last-Lecture-Randy-Pausch/dp/1401323251)
+- 
 
 ## Movies 
 - [Blackberry](https://en.wikipedia.org/wiki/BlackBerry_(film))
