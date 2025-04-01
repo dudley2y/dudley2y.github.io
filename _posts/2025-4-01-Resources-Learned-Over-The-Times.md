@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resources Learned Over the times"
-date:    "2025-03-11"
+date:    "2025-04-01 04:08:15 -0600"
 categories: jekyll update
 ---
 

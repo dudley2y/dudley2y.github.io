@@ -2,6 +2,7 @@
 layout: post
 title:  "Computing TFT's Emotional Rollercoaster"
 date:   2023-12-29 21:09:56 -0600
+categories: jekyll update
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
