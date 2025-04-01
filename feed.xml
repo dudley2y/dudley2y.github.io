@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://dudley2y.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dudley2y.github.io/" rel="alternate" type="text/html" /><updated>2025-04-01T21:44:20+00:00</updated><id>https://dudley2y.github.io/feed.xml</id><title type="html">A (software) engineering notebook</title><subtitle>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</subtitle><entry><title type="html">Resources Learned Over the times</title><link href="https://dudley2y.github.io/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times.html" rel="alternate" type="text/html" title="Resources Learned Over the times" /><published>2025-04-01T10:08:15+00:00</published><updated>2025-04-01T10:08:15+00:00</updated><id>https://dudley2y.github.io/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times</id><content type="html" xml:base="https://dudley2y.github.io/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times.html">&lt;h2 id=&quot;technical-resources&quot;&gt;Technical Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zguide.zeromq.org/&quot;&gt;ZeroMQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;Crafting Interpreters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;amp;list=PLE18841CABEA24090&quot;&gt;structure and interpretation of computer programs MIT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200&quot;&gt;The Linux Programming Interface&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6avJHaC3C2U&quot;&gt;The Art of Code - Dylan Beattie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-blogs&quot;&gt;Technical Blogs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tailscale.com/blog&quot;&gt;Tailscale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.atspotify.com/&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discord.com/category/engineering&quot;&gt;Discord&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://netflixtechblog.com/&quot;&gt;Netflix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797&quot;&gt;The Idea Factory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Last-Lecture-Randy-Pausch/dp/1401323251&quot;&gt;The Last Lecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;movies&quot;&gt;Movies&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/BlackBerry_(film)&quot;&gt;Blackberry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;memorable-professors&quot;&gt;Memorable Professors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/dalereed/&quot;&gt;Dale Reed - Program Design 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs.uic.edu/profiles/evan-mccarty/&quot;&gt;Evan McCarty - Mathematical Foundations of Computing &amp;amp;&amp;amp; Languages and Automata&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/hummel-joseph.html&quot;&gt;Joseph Hummel - Data Structures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~ckanich/&quot;&gt;Chris Kanich - Systems Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.levreyzin.com/&quot;&gt;Lev Ryzen - Game Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs.brown.edu/people/ycheng79/&quot;&gt;Yu Cheng - Algorithms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~polakis/aboutme/&quot;&gt;Jason Polakis - Network Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~zhangx/&quot;&gt;Xinhua Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;textbooks&quot;&gt;Textbooks&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mml-book.github.io/book/mml-book.pdf&quot;&gt;Machine Learning Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~karlin/GameTheoryBook.pdf&quot;&gt;Advanced Game Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X&quot;&gt;Systems Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs.brown.edu/people/ycheng79/mcs401f21.html&quot;&gt;Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Technical Resources ZeroMQ Crafting Interpreters structure and interpretation of computer programs MIT The Linux Programming Interface The Art of Code - Dylan Beattie Hacker News</summary></entry><entry><title type="html">God Bless GZIP (for CAN Network Traffic)</title><link href="https://dudley2y.github.io/jekyll/update/2024/03/05/God-Bless-GZIP.html" rel="alternate" type="text/html" title="God Bless GZIP (for CAN Network Traffic)" /><published>2024-03-05T00:00:00+00:00</published><updated>2024-03-05T00:00:00+00:00</updated><id>https://dudley2y.github.io/jekyll/update/2024/03/05/God-Bless-GZIP</id><content type="html" xml:base="https://dudley2y.github.io/jekyll/update/2024/03/05/God-Bless-GZIP.html">&lt;h1 id=&quot;data-aquisition-is-expensive&quot;&gt;Data Aquisition is expensive&lt;/h1&gt;
+&lt;p&gt;An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.&lt;/p&gt;
+
+&lt;p&gt;When building a data acquisition system, the important questions for an engineer are&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;What data are we collecting?&lt;/li&gt;
+  &lt;li&gt;How much data are we collecting?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Specifically, we were collecting high frequency CANbus data. We ran into a issue however. We didn’t know upfront what data we do and don’t care about. If we filter data on edge, we lose out on potential relevant data for future uses. If we don’t filter, we could be storing potential junk data that just costs unnecessary data. So unfortunately, AT&amp;amp;T’s $$$/MB ended up being the main driver for our achitecture.&lt;/p&gt;
+
+&lt;h1 id=&quot;wtf-is-can&quot;&gt;WTF is CAN&lt;/h1&gt;
+
+&lt;p&gt;If you are anything like me, you came out of college thinking you were a hotshot because you understood how DNSSEC and BGP worked. You might’ve heard of protocols like IP, TCP, TLS, HTTPS and been confident. Little did you know, there have been more protocols invented for shit’s n giggles than grains of sand in the earth. Because I am lazy, here’s a ChatGPT 3.5 explanation of the protocol:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CANbus, short for Controller Area Network bus, is a robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other in applications without a host computer. It is commonly used in automotive and industrial applications to enable communication between various components within a vehicle or a machine. CANbus provides a reliable and efficient way to transmit data between different electronic control units (ECUs) or nodes within a network, allowing for real-time control and monitoring of systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://canlogger1000.csselectronics.com/img/CAN-bus-frame-standard-message-SOF-ID-RTR-Control-Data-CRC-ACK-EOF.svg&quot; alt=&quot;standard can frame&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;TLDR: it’s the networking protocol that’s responsible for making your car work. Your brake pedals don’t physically connect to your tires, so something has to tell your brakes to activate. Thanks to the can-utils library, we can easily see CAN network traffic easily on a linux machine!&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.414775&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 0CF00400#0EC17D000000007D
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.418096&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 18FD3F00#FFFFFFFFFFFFFFFF
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.418670&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 0CFD9200#F0FFFFFFFFFFFFFF
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.419262&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 18F00E00#A00FFFFFEA9FFFFF
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.423085&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 0CF00300#D20000FFFF0F1F7D
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.428077&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 18FEDF00#7DE02E7DFBFFFFF0
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1708109615.428613&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; can0 18FEF000#FFFFFF0000FF33FF
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;compression&quot;&gt;Compression!&lt;/h1&gt;
+
+&lt;p&gt;The senior engineer when faced with the problem went processing data on edge&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;saves money by offloading computation to the edge instead of the cloud&lt;/li&gt;
+  &lt;li&gt;saves money by smaller transfer sizes&lt;/li&gt;
+  &lt;li&gt;lets me play with tools i’ve been wanting to play more with&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As the junior engineer, I thought lets just collect everything and try to compress it! With the way gzip works, GZIP shows better compression rates when it sees similar lines repeatedly. Since in my expereince CAN networks usually have fairly reptitive traffic, I thought GZIP’ing could be an affordable option. A further extension being stripping the timestamps due to them not being as relevant.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/can_compression.png&quot; alt=&quot;Experiment&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Experiment&lt;/th&gt;
+      &lt;th&gt;Compression Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Normal&lt;/td&gt;
+      &lt;td&gt;0x&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GZIP Raw&lt;/td&gt;
+      &lt;td&gt;10x&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GZIP Minimal&lt;/td&gt;
+      &lt;td&gt;78.9x&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;a-new-challenger-has-arrived&quot;&gt;A NEW CHALLENGER HAS ARRIVED&lt;/h2&gt;
+
+&lt;p&gt;With my Senior engineer requesting I try one more format. I introduce Apache Parquet.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. Parquet is available in multiple languages including Java, C++, Python, etc…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Using pyarrow’s parquet module, I see the follow result&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/can_parquet.png&quot; alt=&quot;Experiment&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Experiment&lt;/th&gt;
+      &lt;th&gt;Compression Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Normal&lt;/td&gt;
+      &lt;td&gt;0x&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Parquet&lt;/td&gt;
+      &lt;td&gt;4x&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I should’ve just listened to my senior…&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Data Aquisition is expensive An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.</summary></entry><entry><title type="html">A (not so) Simple Filesystem Scanner</title><link href="https://dudley2y.github.io/jekyll/update/2024/01/08/A-(not-so)-Simple-Filesystem-Scanner.html" rel="alternate" type="text/html" title="A (not so) Simple Filesystem Scanner" /><published>2024-01-08T03:09:56+00:00</published><updated>2024-01-08T03:09:56+00:00</updated><id>https://dudley2y.github.io/jekyll/update/2024/01/08/A%20(not%20so)-Simple-Filesystem-Scanner</id><content type="html" xml:base="https://dudley2y.github.io/jekyll/update/2024/01/08/A-(not-so)-Simple-Filesystem-Scanner.html">&lt;p&gt;The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt; 
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;recursion_step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    
+        &lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; 
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;  &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+
+            &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getsize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recursion_step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        &lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt; 
+
+        &lt;span class=&quot;n&quot;&gt;is_gb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_gb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+            &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1024&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; GB &quot;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+            &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; B &quot;&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;global_entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_sizes&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_relevant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;global_entires&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threshold&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;global_entires&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lstrip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threshold&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;D:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;global_entries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;recursion_step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;global_entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;print_relevant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;global_entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threshold&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This small little program scans any path or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;start&lt;/code&gt; variable to shows all its children folders with their respective sizes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/file_scanner_example.png&quot; alt=&quot;Folders and their sizes&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; So why did this little script take 4 hours…&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you want to access a folder or a files’s metadata, typically you will access some sort of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;os.stat&lt;/code&gt; , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;os.path.getsize&lt;/code&gt;. Problem, insert&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The ‘os.path.getsize’ API returns the apparent size of the file at &lt;em&gt;path&lt;/em&gt;, that is, the number of bytes the file reports itself as consuming. However, it’s often useful to get the actual size of the file, or the size of file on disk. It would be helpful if one could get this same information from ‘os.path.getsize’. 
+        - &lt;a href=&quot;https://bugs.python.org/issue41092&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So getting the size knowing the path ends up resulting in SIGNIFICANTLY smaller values than the actual size of the path itself. The object most likely is some object that contains meta information and pointers to the child chunks but not containing the actual values itself. Do I understand why Windows is like this, no, is this already implemented in the Windows Explorer, yes, does this make me want to rm -rf system32, yes. So that approach was a dead end.&lt;/p&gt;
+
+&lt;p&gt;Rant aside, I remembered that some operating systems implement Filesystems as BTrees, but either way Trees are a good mental model for this problem. Files are leaf nodes and Folders are other parent nodes to which it  can have children. So since Windows wouldn’t expose this to me, i’ll just calculate it myself. With a simple recursive graph algorithm ( I can’t be bothered to remember which proper technique name it is) I calculate the size of all the files in the child’s folder and I give it to the parent.&lt;/p&gt;
+
+&lt;p&gt;After running the script, we found a culprit. Unreal Engine. Precisely, 2 separate versions of Unreal taking up over 350 gigabytes of storage. Microsoft gets to live another day.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">The inspiration behind this project was relatively simple, my buddy was curious where the big files on his computer were. He had 1.5/2TB of storage filled and wondered if there was any leftover junk he could easily get rid of. As an aspiring software engineer, naturally he went: “Where is the Microsoft bloatware on my machine?”. So we found out.</summary></entry><entry><title type="html">Computing TFT’s Emotional Rollercoaster</title><link href="https://dudley2y.github.io/jekyll/update/2023/12/30/tft-the-most-tilting-rng.html" rel="alternate" type="text/html" title="Computing TFT’s Emotional Rollercoaster" /><published>2023-12-30T03:09:56+00:00</published><updated>2023-12-30T03:09:56+00:00</updated><id>https://dudley2y.github.io/jekyll/update/2023/12/30/tft-:-the-most-tilting-rng</id><content type="html" xml:base="https://dudley2y.github.io/jekyll/update/2023/12/30/tft-the-most-tilting-rng.html">&lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&gt;&lt;/script&gt;
+
+&lt;script id=&quot;MathJax-script&quot; async=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Teamfight Tactics (TFT) is a multiplayer auto chess game developed by Riot games. During the game, players can buy &amp;amp; sell champions with gold to develop the best “comp” or arrangment of characters. A champion is defined as a entity that costs a certain gold amount that gives your “comp” certain traits. At every moment, there is a shop displaying 5 random champions that follow some distribution pattern. This so-called distribution has 2 layers to it&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Level&lt;/strong&gt;. Your level changes the percent likelihood you are to see 1,2,3,4,5 costs. This allows you to see lower cost champions in the early game and ensure that late game you will on average see higher cost champions.&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Level&lt;/th&gt;
+          &lt;th&gt;1-cost&lt;/th&gt;
+          &lt;th&gt;2-cost&lt;/th&gt;
+          &lt;th&gt;3-cost&lt;/th&gt;
+          &lt;th&gt;4-cost&lt;/th&gt;
+          &lt;th&gt;5-cost&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;100%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;100%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;75%&lt;/td&gt;
+          &lt;td&gt;25%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;55%&lt;/td&gt;
+          &lt;td&gt;30%&lt;/td&gt;
+          &lt;td&gt;15%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;45%&lt;/td&gt;
+          &lt;td&gt;33%&lt;/td&gt;
+          &lt;td&gt;20%&lt;/td&gt;
+          &lt;td&gt;2%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;30%&lt;/td&gt;
+          &lt;td&gt;40%&lt;/td&gt;
+          &lt;td&gt;25%&lt;/td&gt;
+          &lt;td&gt;5%&lt;/td&gt;
+          &lt;td&gt;0%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;7&lt;/td&gt;
+          &lt;td&gt;19%&lt;/td&gt;
+          &lt;td&gt;35%&lt;/td&gt;
+          &lt;td&gt;35%&lt;/td&gt;
+          &lt;td&gt;10%&lt;/td&gt;
+          &lt;td&gt;1%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;18%&lt;/td&gt;
+          &lt;td&gt;25%&lt;/td&gt;
+          &lt;td&gt;36%&lt;/td&gt;
+          &lt;td&gt;18%&lt;/td&gt;
+          &lt;td&gt;3%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;9&lt;/td&gt;
+          &lt;td&gt;10%&lt;/td&gt;
+          &lt;td&gt;20%&lt;/td&gt;
+          &lt;td&gt;25%&lt;/td&gt;
+          &lt;td&gt;35%&lt;/td&gt;
+          &lt;td&gt;10%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;5%&lt;/td&gt;
+          &lt;td&gt;10%&lt;/td&gt;
+          &lt;td&gt;20%&lt;/td&gt;
+          &lt;td&gt;40%&lt;/td&gt;
+          &lt;td&gt;25%&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;11&lt;/td&gt;
+          &lt;td&gt;1%&lt;/td&gt;
+          &lt;td&gt;2%&lt;/td&gt;
+          &lt;td&gt;12%&lt;/td&gt;
+          &lt;td&gt;50%&lt;/td&gt;
+          &lt;td&gt;35%&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Units Left&lt;/strong&gt;.  The number of champions left per gold bracket&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Cost Type&lt;/th&gt;
+          &lt;th&gt;Quantity&lt;/th&gt;
+          &lt;th&gt;Distinct Champions&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1-cost&lt;/td&gt;
+          &lt;td&gt;29&lt;/td&gt;
+          &lt;td&gt;13&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;2-cost&lt;/td&gt;
+          &lt;td&gt;22&lt;/td&gt;
+          &lt;td&gt;13&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;3-cost&lt;/td&gt;
+          &lt;td&gt;18&lt;/td&gt;
+          &lt;td&gt;13&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;4-cost&lt;/td&gt;
+          &lt;td&gt;12&lt;/td&gt;
+          &lt;td&gt;12&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;5-cost&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;data-science&quot;&gt;“Data Science”&lt;/h1&gt;
+&lt;p&gt;Every TFT Player has experienced this one scenario multiple times. You’ve reached mid game (level 6-8) with around 40-50 gold and you need exactly 1 character to make all your synergies combine. You roll 2 gold, nothing. Roll 10 gold, Nothing. Roll EVERYTHING, NOTHING!!! You wonder, how the f*** is this even possible, how did you get so unlucky to not even hit a SINGLE unit. Well that scenario is the inspiration for this project, I want to know how exactly unlikely was I when rolling down for a certain unit.&lt;/p&gt;
+
+&lt;p&gt;Each shop rolls for the cost of the unit first (based on your current level), followed by the unit itself (based on the number of units left &amp;amp; the pool size for units of that cost).&lt;/p&gt;
+
+\[P(\text{hitting a specific unit in this shop}) = P(\text{roll unit-cost})\cdot\frac{\text{number of specific unit}}{\text{number of unit-costs left}}\]
+
+&lt;p&gt;Trivially we can then infer our “unluckiness” stat would be the compliment of the probability of hitting a specific unit.&lt;/p&gt;
+
+\[P(\text{unluckiness}) =  1 - P(\text{hitting a specific unit in this shop})^\text{number of rerolls}\]
+
+&lt;p&gt;However, during each iteration, someone else could’ve taken the unit effecting the pool, so we expand the formula to&lt;/p&gt;
+
+\[P(\text{unluckiness}) = 1 - P_1(\text{hitting in shop 1}) \times P_2(\text{hitting in shop 2}) \times \ldots \times P_n(\text{hitting in shop n})\]
+
+&lt;center&gt;&lt;a href=&quot;https://github.com/wongkj12/TFT-Rolling-Odds-Calculator/tree/main&quot;&gt;Reference: wongkj12&lt;/a&gt;
+
+&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;implementation&quot;&gt;Implementation&lt;/h1&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Another Hello world</title><link href="https://dudley2y.github.io/jekyll/update/2023/12/29/Birth-of-Life.html" rel="alternate" type="text/html" title="Another Hello world" /><published>2023-12-29T03:09:56+00:00</published><updated>2023-12-29T03:09:56+00:00</updated><id>https://dudley2y.github.io/jekyll/update/2023/12/29/Birth-of-Life</id><content type="html" xml:base="https://dudley2y.github.io/jekyll/update/2023/12/29/Birth-of-Life.html">&lt;p&gt;For my highschool’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_Lead_the_Way&quot;&gt;Project Lead The Way Engineering course&lt;/a&gt;, my engineering notebook was a core part of the class. Spending time drawing 1 / 2 point perspective drawings, the notes earlier in the semester was something I could always look back upon. That should’ve been when I learned taking notes was important…&lt;/p&gt;
+
+&lt;p&gt;I told myself during college that notebooks were stupid. All my slides and lectures were online, why would I waste money on a notebook I’d never look back upon. One of my many realizations of adulthood is that winging it really only gets you so far. There have been many incidents where I had learned some technical concept for it to be forgotten later. Advent of Code 2023 really humbled my knowledge of data structure and algorithms to the point where I had to re-lookup what breadth-first-search was. I’d classify my current reality as being a really junior software engineer. I’m still learning how to fully utilize my tools and industry standards. Every day I’m still learning concepts which I know I will eventually need something to look back upon. So in the spirit of starting something new&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; 
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Blog&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">For my highschool’s Project Lead The Way Engineering course, my engineering notebook was a core part of the class. Spending time drawing 1 / 2 point perspective drawings, the notes earlier in the semester was something I could always look back upon. That should’ve been when I learned taking notes was important… I told myself during college that notebooks were stupid. All my slides and lectures were online, why would I waste money on a notebook I’d never look back upon. One of my many realizations of adulthood is that winging it really only gets you so far. There have been many incidents where I had learned some technical concept for it to be forgotten later. Advent of Code 2023 really humbled my knowledge of data structure and algorithms to the point where I had to re-lookup what breadth-first-search was. I’d classify my current reality as being a really junior software engineer. I’m still learning how to fully utilize my tools and industry standards. Every day I’m still learning concepts which I know I will eventually need something to look back upon. So in the spirit of starting something new</summary></entry></feed>
