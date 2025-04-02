@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-01T16:43:16-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A (software) engineering notebook</title><subtitle>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</subtitle><entry><title type="html">Resources Learned Over the times</title><link href="http://localhost:4000/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times.html" rel="alternate" type="text/html" title="Resources Learned Over the times" /><published>2025-04-01T05:08:15-05:00</published><updated>2025-04-01T05:08:15-05:00</updated><id>http://localhost:4000/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/04/01/Resources-Learned-Over-The-Times.html">&lt;h2 id=&quot;technical-resources&quot;&gt;Technical Resources&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-01T23:36:53-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A (software) engineering notebook</title><subtitle>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</subtitle><entry><title type="html">Career Syllabus and Resources</title><link href="http://localhost:4000/jekyll/update/2025/04/01/Career-Syllabus-and-Resources.html" rel="alternate" type="text/html" title="Career Syllabus and Resources" /><published>2025-04-01T05:08:15-05:00</published><updated>2025-04-01T05:08:15-05:00</updated><id>http://localhost:4000/jekyll/update/2025/04/01/Career-Syllabus-and-Resources</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/04/01/Career-Syllabus-and-Resources.html">&lt;h2 id=&quot;technical-resources&quot;&gt;Technical Resources&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://zguide.zeromq.org/&quot;&gt;ZeroMQ&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;Crafting Interpreters&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;amp;list=PLE18841CABEA24090&quot;&gt;structure and interpretation of computer programs MIT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;amp;list=PLE18841CABEA24090&quot;&gt;Structure and Interpretation of Computer Programs MIT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nand2tetris.org/&quot;&gt;Nand to Tetris&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200&quot;&gt;The Linux Programming Interface&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6avJHaC3C2U&quot;&gt;The Art of Code - Dylan Beattie&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-youtubers&quot;&gt;Technical Youtubers&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@CodeBullet&quot;&gt;Code Bullet - AI is fun&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@TheCodingTrain&quot;&gt;Coding Train - Make your ideas come to life&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@DevonCrawford&quot;&gt;&lt;strong&gt;Devon Crawford - LIVE LIFE AND LEARN COOL SHIT&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@Fireship&quot;&gt;Fireship - Updates on the tech world&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@fknight&quot;&gt;ForestKnight - Code doesn’t have to be hard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@geohotarchive&quot;&gt;&lt;strong&gt;George Hotz - Work smarter and harder&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@jonhoo&quot;&gt;Jon Gjengset - Rust + Building complex projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@LiveOverflow&quot;&gt;LiveOverflow - Exploits explained easily&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@t3dotgg&quot;&gt;Theo - Developer tools are important&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@ThePrimeagen&quot;&gt;ThePrimeagen - Benchmarking + Iterations on systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@TsodingDaily&quot;&gt;Tsoding - Build really hard things cuz y not&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;technical-blogs&quot;&gt;Technical Blogs&lt;/h2&gt;
@@ -20,12 +36,6 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797&quot;&gt;The Idea Factory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Last-Lecture-Randy-Pausch/dp/1401323251&quot;&gt;The Last Lecture&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;movies&quot;&gt;Movies&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/BlackBerry_(film)&quot;&gt;Blackberry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;memorable-professors&quot;&gt;Memorable Professors&lt;/h2&gt;
@@ -37,7 +47,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.levreyzin.com/&quot;&gt;Lev Ryzen - Game Theory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cs.brown.edu/people/ycheng79/&quot;&gt;Yu Cheng - Algorithms&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~polakis/aboutme/&quot;&gt;Jason Polakis - Network Security&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~zhangx/&quot;&gt;Xinhua Zhang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.uic.edu/~zhangx/&quot;&gt;Xinhua Zhang - Machine Learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;textbooks&quot;&gt;Textbooks&lt;/h2&gt;
@@ -46,7 +56,7 @@
   &lt;li&gt;&lt;a href=&quot;https://homes.cs.washington.edu/~karlin/GameTheoryBook.pdf&quot;&gt;Advanced Game Theory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X&quot;&gt;Systems Programming&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cs.brown.edu/people/ycheng79/mcs401f21.html&quot;&gt;Algorithms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Technical Resources ZeroMQ Crafting Interpreters structure and interpretation of computer programs MIT The Linux Programming Interface The Art of Code - Dylan Beattie Hacker News</summary></entry><entry><title type="html">God Bless GZIP (for CAN Network Traffic)</title><link href="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html" rel="alternate" type="text/html" title="God Bless GZIP (for CAN Network Traffic)" /><published>2024-03-05T00:00:00-06:00</published><updated>2024-03-05T00:00:00-06:00</updated><id>http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html">&lt;h1 id=&quot;data-aquisition-is-expensive&quot;&gt;Data Aquisition is expensive&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Technical Resources ZeroMQ Crafting Interpreters Structure and Interpretation of Computer Programs MIT Nand to Tetris The Linux Programming Interface The Art of Code - Dylan Beattie Hacker News</summary></entry><entry><title type="html">God Bless GZIP (for CAN Network Traffic)</title><link href="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html" rel="alternate" type="text/html" title="God Bless GZIP (for CAN Network Traffic)" /><published>2024-03-05T00:00:00-06:00</published><updated>2024-03-05T00:00:00-06:00</updated><id>http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/03/05/God-Bless-GZIP.html">&lt;h1 id=&quot;data-aquisition-is-expensive&quot;&gt;Data Aquisition is expensive&lt;/h1&gt;
 &lt;p&gt;An unfortunate biproduct of capitalism is that throwing bytes through a network isn’t as cheap as we’d like to think it is. With companies like AT&amp;amp;T already piggybacking off the tower giants American Tower and Crown Castle, everybody’s gotta have a piece of the pie making data strategies also a financial choice.&lt;/p&gt;
 
 &lt;p&gt;When building a data acquisition system, the important questions for an engineer are&lt;/p&gt;
