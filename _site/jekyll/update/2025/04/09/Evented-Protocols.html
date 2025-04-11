@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>MQTT and AMQP: The Protocols Nobody is Taught | A (software) engineering notebook</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="MQTT and AMQP: The Protocols Nobody is Taught" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In a world obsessed with REST and GraphQL, event-driven communication protocols like MQTT and AMQP often fly under the radar. But if you’ve ever needed to build something that reacts to the world in real time—IoT sensors, chat apps, or even backend event streams—you’ve probably brushed up against the limitations of traditional request-response models." />
+<meta property="og:description" content="In a world obsessed with REST and GraphQL, event-driven communication protocols like MQTT and AMQP often fly under the radar. But if you’ve ever needed to build something that reacts to the world in real time—IoT sensors, chat apps, or even backend event streams—you’ve probably brushed up against the limitations of traditional request-response models." />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2025/04/09/Evented-Protocols.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2025/04/09/Evented-Protocols.html" />
+<meta property="og:site_name" content="A (software) engineering notebook" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-09T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="MQTT and AMQP: The Protocols Nobody is Taught" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-04-09T00:00:00-05:00","datePublished":"2025-04-09T00:00:00-05:00","description":"In a world obsessed with REST and GraphQL, event-driven communication protocols like MQTT and AMQP often fly under the radar. But if you’ve ever needed to build something that reacts to the world in real time—IoT sensors, chat apps, or even backend event streams—you’ve probably brushed up against the limitations of traditional request-response models.","headline":"MQTT and AMQP: The Protocols Nobody is Taught","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2025/04/09/Evented-Protocols.html"},"url":"http://localhost:4000/jekyll/update/2025/04/09/Evented-Protocols.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="A (software) engineering notebook" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">A (software) engineering notebook</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">MQTT and AMQP: The Protocols Nobody is Taught</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-04-09T00:00:00-05:00" itemprop="datePublished">Apr 9, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>In a world obsessed with REST and GraphQL, event-driven communication protocols like MQTT and AMQP often fly under the radar. But if you’ve ever needed to build something that reacts to the world in real time—IoT sensors, chat apps, or even backend event streams—you’ve probably brushed up against the limitations of traditional request-response models.</p>
+
+<h3 id="why-evented-protocols-matter">Why Evented Protocols Matter</h3>
+
+<p>Modern apps are chatty. They want to be notified when things change—not stuck polling a server every few seconds for updates.</p>
+
+<p>Enter evented protocols: instead of asking “Has anything changed yet?”, clients can just say, “Wake me up when something does.”</p>
+
+<p>That’s the entire premise of MQTT and AMQP—two protocols designed for high-throughput, low-latency, and asynchronous messaging.</p>
+
+<h3 id="mqtt-and-amqp-lightweight-and-built-for-iot">MQTT and AMQP: Lightweight and Built for IoT</h3>
+<p>MQTT (Message Queuing Telemetry Transport) is a barebones, ultra-efficient protocol originally designed for sending small bits of data over unreliable networks.</p>
+
+<p>At the heart of MQTT is the Publish/Subscribe pattern:</p>
+<ul>
+  <li>
+    <p>Publisher sends messages to a Topic</p>
+  </li>
+  <li>
+    <p>Subscriber subscribes to one or more Topics</p>
+  </li>
+  <li>
+    <p>Broker acts as the middleman — receiving, filtering, and distributing messages</p>
+  </li>
+</ul>
+
+<pre><code class="language-mermaid">[Sensor] --&gt; publishes to --&gt; "room/temperature"
+                           ↓
+                     [MQTT Broker]
+                           ↓
+       [Mobile App] &lt;-- subscribed to -- "room/temperature"
+</code></pre>
+
+<p>AMQP (Advanced Message Queuing Protocol) is a much more feature-rich messaging protocol designed for robust, mission-critical systems. It’s all about guarantees, routing logic, and message integrity—often used where getting the message through matters.
+Unlike MQTT’s simpler pub/sub system, AMQP introduces a more flexible and powerful messaging model. It decouples message producers and consumers via a set of well-defined entities:</p>
+
+<ol>
+  <li>
+    <p>Producer:
+Sends messages to an exchange, not directly to a queue.</p>
+  </li>
+  <li>
+    <p>Exchange:
+A routing mechanism. Takes messages and determines which queue(s) to route them to, based on the routing key and exchange type.</p>
+  </li>
+  <li>
+    <p>Queue:
+Buffers messages for consumption. Consumers read from queues.</p>
+  </li>
+  <li>
+    <p>Consumer:
+Subscribes to one or more queues and processes the messages.</p>
+  </li>
+</ol>
+
+<pre><code class="language-mermaid">         +-----------+
+         | Producer  |
+         +-----------+
+              |
+              | Publishes:
+              |   - routing key: user.signup
+              |   - routing key: user.login
+              v
+         +----------------+
+         |   Exchange     |   (type: direct or topic)
+         +----------------+
+              |        |
+    +---------+        +----------+
+    |                              |
+    v                              v
++-----------+              +-----------+
+|  Queue A  |              |  Queue B  |
+| (user.signup)            | (user.login)
++-----------+              +-----------+
+     |                          |
+     v                          v
++-----------+              +-----------+
+|Consumer A |              |Consumer B |
++-----------+              +-----------+
+</code></pre>
+
+<h3 id="why-dont-we-talk-about-them-more">Why Don’t We Talk About Them More?</h3>
+<p>Honestly? They’re not “cool” in the web dev world. They’re not baked into your browser or auto-injected into your favorite JS framework. You don’t see TikTok tutorials on AMQP.</p>
+
+<p>But for infrastructure-level problems, these protocols solve real pain points:</p>
+<ul>
+  <li>High-throughput messaging across systems</li>
+  <li>Real-time updates to thousands of clients</li>
+  <li>Guaranteed message delivery and audit trails</li>
+</ul>
+
+<p>However there is a solution for the web devs!</p>
+
+<h3 id="events-for-javascript-developers">Events for Javascript Developers</h3>
+
+<p>When it comes to real-time communication on the web, most developers immediately reach for WebSockets or Server-Sent Events (SSE)—both solid, well-defined options. But if you’ve ever gone hunting through npm, you’ll find no shortage of abandoned, half-documented WebSocket libraries (I’d bet there are 30+ deprecated ones just waiting to mess up your package-lock.json in some React project). So instead I want to demonstrate the principle can be implemented under the hood with “long polling” or hanging the request.</p>
+
+<p>In Express, an endpoint handler typically looks like this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/status</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// do something</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>Now here’s the trick that blew my mind when I first saw it:</p>
+<blockquote>
+  <p>What if you just… save the res variable?</p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">express</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+<span class="kd">const</span> <span class="nx">PORT</span> <span class="o">=</span> <span class="mi">3000</span><span class="p">;</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="nx">json</span><span class="p">());</span>
+
+<span class="c1">// This will store all open client connections</span>
+<span class="kd">let</span> <span class="nx">pendingClients</span> <span class="o">=</span> <span class="p">[];</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">/</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// Instead of sending a response right away, we save it</span>
+  <span class="nx">pendingClients</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span> <span class="nx">res</span> <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>due to the socket connections staying in RAM unclosed, we now have unlimited power to send data back through.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="dl">'</span><span class="s1">/push</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">message</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">message</span> <span class="o">||</span> <span class="dl">'</span><span class="s1">Hello from server!</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Pushing message to clients:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">message</span><span class="p">);</span>
+
+  <span class="c1">// Respond to all hanging requests</span>
+  <span class="nx">pendingClients</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(({</span> <span class="nx">res</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">({</span> <span class="nx">message</span> <span class="p">});</span>
+  <span class="p">});</span>
+
+  <span class="c1">// Reset the list</span>
+  <span class="nx">pendingClients</span> <span class="o">=</span> <span class="p">[];</span>
+
+  <span class="nx">res</span><span class="p">.</span><span class="nx">sendStatus</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Kinda cool ikr.</p>
+
+
+  </div><a class="u-url" href="/jekyll/update/2025/04/09/Evented-Protocols.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">A (software) engineering notebook</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">A (software) engineering notebook</li><li><a class="u-email" href="mailto:joshua.dudley.jobs@gmail.com">joshua.dudley.jobs@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Watch another software engineer fall into a deep despair trying to understand how sand thinks better than me</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

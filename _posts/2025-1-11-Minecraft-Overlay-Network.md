@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Tailscale Turned My Minecraft Server into a Secret Society"
-date:   2025-4-11
+date:   2025-1-11
 categories: jekyll update
 ---
 
