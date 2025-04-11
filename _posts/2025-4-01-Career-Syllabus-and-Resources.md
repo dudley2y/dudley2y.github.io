@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Career Syllabus and Resources"
-date:    "2025-04-01 04:08:15 -0600"
+title:  "My technical Roadmap"
+date:    "2024-10-01 04:08:15 -0600"
 categories: jekyll update
 ---
 
@@ -33,12 +33,15 @@ categories: jekyll update
 - [Spotify](https://engineering.atspotify.com/)
 - [Discord](https://discord.com/category/engineering)
 - [Netflix](https://netflixtechblog.com/)
+- [Miles Shamo](https://lp.baric.us/)
+- [George Hotz](https://geohot.github.io/blog/)
 
 
 
 ## Books 
 - [The Idea Factory](https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797)
 - [The Last Lecture](https://www.amazon.com/Last-Lecture-Randy-Pausch/dp/1401323251)
+- [Zen and the Art of Motorcycle Maintance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469)
 
 
 ## Memorable Professors
@@ -56,5 +59,9 @@ categories: jekyll update
 - [Advanced Game Theory](https://homes.cs.washington.edu/~karlin/GameTheoryBook.pdf)
 - [Systems Programming](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X)
 - [Algorithms](https://cs.brown.edu/people/ycheng79/mcs401f21.html)
+
+## Random Things 
+- [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod#:~:text=In%20August%202009%2C%20JesusFreke%20stopped,being%20often%20known%20as%20modding)
+- [Embrace Extend, and Exterminate](https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish)
 
 
